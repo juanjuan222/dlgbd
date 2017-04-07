@@ -1,0 +1,78 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "微软雅黑"; }
+
+a {
+  text-decoration: none;
+  color: #ccc; }
+
+#headerbox {
+  width: 100%;
+  height: 45px;
+  line-height: 45px; }
+  #headerbox #header-nav {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #headerbox #header-nav .ul {
+      float: right; }
+      #headerbox #header-nav .ul .nm,
+      #headerbox #header-nav .ul .xw,
+      #headerbox #header-nav .ul .hao,
+      #headerbox #header-nav .ul .dt,
+      #headerbox #header-nav .ul .sp,
+      #headerbox #header-nav .ul .tb {
+        color: #333;
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 20px;
+        text-decoration: underline; }
+        #headerbox #header-nav .ul .nm:hover,
+        #headerbox #header-nav .ul .xw:hover,
+        #headerbox #header-nav .ul .hao:hover,
+        #headerbox #header-nav .ul .dt:hover,
+        #headerbox #header-nav .ul .sp:hover,
+        #headerbox #header-nav .ul .tb:hover {
+          color: #0000CC; }
+      #headerbox #header-nav .ul .dl,
+      #headerbox #header-nav .ul .sz {
+        color: #333;
+        font-size: 13px;
+        margin-left: 20px;
+        text-decoration: underline; }
+        #headerbox #header-nav .ul .dl:hover,
+        #headerbox #header-nav .ul .sz:hover {
+          color: #0000CC; }
+      #headerbox #header-nav .ul .cp {
+        display: inline-block;
+        width: 60px;
+        height: 24px;
+        color: #fff;
+        background: #3388FF;
+        text-align: center;
+        line-height: 24px;
+        font-size: 13px;
+        margin-left: 20px; }
+
+#dloginbox {
+  display: none; }
+  #dloginbox .loginitem {
+    margin-left: 20px;
+    margin-top: 30px; }
+    #dloginbox .loginitem input {
+      width: 353px;
+      height: 50px;
+      padding-left: 5px;
+      outline: none; }
+    #dloginbox .loginitem a {
+      display: block;
+      width: 353px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      color: #fff;
+      font-size: 30px;
+      background: #428AB4; }

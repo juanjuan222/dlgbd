@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>百度登录框</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="layer/layer.js"></script>
+		<script src="js/index.js"></script>
+
+	</head>
+
+	<body>
+		<div id="headerbox">
+			<div id="header-nav">
+				<div class="ul">
+					<a href="javascript:;" class="nm">糯米</a>
+					<a href="javascript:;" class="xw">新闻</a>
+					<a href="javascript:;" class="hao">hao123</a>
+					<a href="javascript:;" class="dt">地图</a>
+					<a href="javascript:;" class="sp">视频</a>
+					<a href="javascript:;" class="tb">贴吧</a>
+					<a href="javascript:;" class="dl" onclick="ShowLoginBox()">登录</a>
+					<a href="javascript:;" class="sz">设置</a>
+					<a href="javascript:;" class="cp">更多产品</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="dloginbox">
+			<div class="loginitem"><input type="text" id="txtUserName" placeholder="请输入密码"/></div>
+			<div class="loginitem"><input type="password" id="txtPwd" placeholder="请输入密码" /></div>
+			<div class="loginitem"><a href="javascript:;" onclick="Login()">登录</a></div>
+		</div>
+	</body>
+
+</html>
